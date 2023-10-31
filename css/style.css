@@ -1,0 +1,17 @@
+
+body{
+    padding: 0;
+    margin: 0;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    background-image: url("/imag/capa.png");
+    width: 100%;
+    height: 569px;
+}
