@@ -28,6 +28,8 @@ h1{
     font-style: normal;
     font-weight: 900;
     padding-top: 20px ;
+    letter-spacing: -0.8px;
+    line-height: normal;
     
 }
 .primeira-cor{
@@ -36,11 +38,14 @@ h1{
 }
 
 .segundo-title{
+    display: block;
     font-size: 16px;
     position: absolute;
     top: 60px; /* ou qualquer valor que você desejar */
     left: 17%; 
     color: #fff;
+    margin-top: -1px;
+    font-weight: 300;
 }
 
 ul, li, a{
@@ -74,7 +79,7 @@ header {
     top: 200px; /* Para posicionar o header no topo da janela */
     z-index: 1000; /* Para garantir que o header esteja sobreposta a outros elementos */
     text-align: center;
-    padding-left: 44%;
+    padding-left: 43%;
     color: #fff;
     
 }
@@ -82,7 +87,7 @@ header {
 h2{
     color: #FFC501;
     font-family: Montserrat;
-    font-size: 130px;
+    font-size: 104px;
     font-style: normal;
     font-weight: 900;
     line-height: normal;
@@ -91,20 +96,17 @@ h2{
 
 header p{
     text-align: justify;
-    width: 40%;
+    width: 50%;
     padding-left: 30%;
     font-family: Montserrat;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    letter-spacing: -0.8px;
 }
 
 
-main{
-    
-
-}
 
 .destaque{
     width: 494px;
@@ -145,7 +147,7 @@ main{
 .parceria{
     background: #FFC501;
     width: 100%;
-    height: 562px;
+    height: 552px;
     flex-shrink: 0;
     text-align: center;
 }
@@ -177,18 +179,24 @@ main{
     width: 800px;
 }
 
-
-footer{
+footer {
+    background-color: #333; /* Cor de fundo do footer, você pode alterar para a cor desejada */
+    color: #fff; /* Cor do texto no footer, você pode alterar para a cor desejada */
+    padding: 60px; /* Espaçamento interno para melhor visualização */
+    
+    /* Centralize o conteúdo dentro do footer */
     display: flex;
     flex-direction: row;
-    width: 100%;
-    height: 299px;
-    flex-shrink: 0;
-    background: #000;
-    margin: 0px auto;
-    justify-content: space-around;
-
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
 }
+
+footer p{
+    text-align: center;
+}
+
+  /* Adicione estilos adicionais para as classes .primeira-cor e .segundo-title, se necessário */
 
 
 
