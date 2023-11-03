@@ -268,9 +268,7 @@ h6{
 
 }
 
-h6{
 
-}
 
 footer >div{
     display: flex;
@@ -293,7 +291,7 @@ footer > div > form > label{
 
 footer > div > form > input{
     width: 312px;
-    height: 50px;
+    height: 60px;
     background-color: #EAAB0A;
     border: none;
     padding: 0 5px;
@@ -317,12 +315,16 @@ footer > div > form > button{
     justify-content: center;
     border: none;
     width: 60px;
-    height: 50px;
+    height: 60px;
     cursor: pointer;
 }
 
-footer ,ul ,li{
+footer ,ul ,li, a{
     cursor: pointer;
+}
+
+ul{
+    padding-top: 1px;
 }
 
 footer >hr{
