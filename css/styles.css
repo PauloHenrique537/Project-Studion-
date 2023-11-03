@@ -211,6 +211,17 @@ footer{
 
 }
 
+h6{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: -0.8px;
+    text-transform: uppercase;
+}
+
 .footer-titulo{
     font-size: 40px;
     height: 40px;
@@ -219,7 +230,7 @@ footer{
     font-family: Montserrat;
     font-style: normal;
     font-weight: 900;
-    padding-top: 10px ;
+    padding-top: 0px ;
     letter-spacing: -0.8px;
     line-height: normal;
 
@@ -235,7 +246,6 @@ footer{
     font-family: Montserrat;
     font-style: normal;
     font-weight: 900;
-    padding-top: 20px ;
     letter-spacing: -0.8px;
     line-height: normal;
     position: relative;
@@ -245,12 +255,21 @@ footer{
 
 .segundo{
     display: block;
-    font-size: 16px;
-    position: absolute;
-    top: 30px; /* ou qualquer valor que você desejar */
-    color: #fff;
-    margin-top: -1px;
-    font-weight: 300;
+    width: 73.962px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    padding-left: 60%;
+    text-align: right;
+
+}
+
+h6{
+
 }
 
 footer >div{
@@ -299,6 +318,10 @@ footer > div > form > button{
     border: none;
     width: 60px;
     height: 50px;
+    cursor: pointer;
+}
+
+footer ,ul ,li{
     cursor: pointer;
 }
 
